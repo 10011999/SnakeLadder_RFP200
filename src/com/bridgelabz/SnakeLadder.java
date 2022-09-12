@@ -27,6 +27,25 @@ public class SnakeLadder {
         {
             playerPosition = 0;
         }
+            if (playerPosition == 94){
+                playerPosition += 6;
+                System.out.println("position is :" + playerPosition);
+            }if (playerPosition == 95){
+                playerPosition += 5;
+                System.out.println("position is :" + playerPosition);
+            }if (playerPosition == 96) {
+                playerPosition +=  4;
+                System.out.println("position is :" + playerPosition);
+            }if (playerPosition == 97) {
+                playerPosition +=  3;
+                System.out.println("position is :" + playerPosition);
+            }if (playerPosition==98) {
+                playerPosition += 2;
+                System.out.println("position is :" + playerPosition);
+            }if (playerPosition==99){
+                playerPosition += 1;
+                System.out.println("position is :" + playerPosition);
+            }
     }while (playerPosition < 100);
     }
 }
