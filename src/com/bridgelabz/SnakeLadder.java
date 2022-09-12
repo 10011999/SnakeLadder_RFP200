@@ -3,6 +3,7 @@ package com.bridgelabz;
 public class SnakeLadder {
     public static void main(String[] args) {
         int playerPosition = 0;
+        int diceCount = 0;
         do {
         int playerPlay = (int) Math.floor(Math.random() *10) % 2;
         final int snake = 1;
@@ -46,7 +47,9 @@ public class SnakeLadder {
                 playerPosition += 1;
                 System.out.println("position is :" + playerPosition);
             }
+            diceCount++;
     }while (playerPosition < 100);
+        System.out.println("dice count = "+diceCount);
     }
 }
 
